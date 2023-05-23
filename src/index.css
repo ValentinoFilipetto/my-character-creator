@@ -5,14 +5,15 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background-color: hsl(195deg, 20%, 86%);
   margin: 0;
+  height: 60%;
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -29,4 +30,9 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+.perspectiveDecoration {
+  background-color: hsl(180deg, 25%, 92%);
+  height: 90%;
 }
